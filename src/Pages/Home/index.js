@@ -7,8 +7,7 @@ import { formatPrice } from '../../util/format';
 
 export default class Home extends Component {
   state = {
-      products: [],
-
+    products: []
   }
 
   async componentDidMount() {
